@@ -1,15 +1,17 @@
+
 {
     "name": "mpu6050-soft-i2c",
     "version": "0.0.1",
-    "description": "Experimental software I2C for MPU6050",
+    "description": "Software I2C driver for MPU6050 on micro:bit ring pins",
+    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "main.ts"
     ],
+    "public": true,
     "supportedTargets": [
         "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    ]
 }
