@@ -1,0 +1,15 @@
+{
+    "name": "mpu6050-soft-i2c",
+    "version": "0.0.1",
+    "description": "Experimental software I2C for MPU6050",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
